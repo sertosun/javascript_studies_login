@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login Page EVB</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper_credentials">
+        <!-- loginname und passwort-->
+        <div class="someLogo">
+          <img src="evblogo.png" alt="" id="evbLogo" />
+        </div>
+        <div class="success">
+          <p id="message">Login-Message</p>
+        </div>
+
+        <div class="username">
+          <label for="user">Username</label>
+          <input type="text" id="user" />
+        </div>
+        <div class="passwort">
+          <label for="passcode">Passwort</label>
+          <input type="password" id="passcode" />
+        </div>
+        <div class="loginButton">
+          <button id="login" onclick="getLogin()">Login</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
